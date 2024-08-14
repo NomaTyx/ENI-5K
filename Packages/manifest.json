@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.qhenshaw.charactermovement": "https://github.com/qhenshaw/CharacterMovement.git",
     "com.qhenshaw.editortools": "https://github.com/qhenshaw/EditorTools.git",
     "com.unity.collab-proxy": "2.0.5",
     "com.unity.feature.development": "1.0.1",
