@@ -1,25 +1,8 @@
 {
   "dependencies": {
-    "com.qhenshaw.charactermovement": {
-      "version": "https://github.com/qhenshaw/CharacterMovement.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.cinemachine": "2.8.9",
-        "com.unity.inputsystem": "1.4.4"
-      },
-      "hash": "ed4dc18d7178258ac00ee472a3d6397f64621de9"
-    },
-    "com.qhenshaw.editortools": {
-      "version": "https://github.com/qhenshaw/EditorTools.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "9457861bf51065d6a7af8f4429f22bf7bf2b3999"
-    },
     "com.unity.cinemachine": {
-      "version": "2.9.5",
-      "depth": 1,
+      "version": "2.9.7",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.31"
@@ -88,7 +71,7 @@
     },
     "com.unity.inputsystem": {
       "version": "1.6.3",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"
@@ -144,9 +127,9 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.director": "1.0.0",
         "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.particlesystem": "1.0.0"
       },
       "url": "https://packages.unity.com"
