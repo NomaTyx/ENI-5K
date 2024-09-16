@@ -44,7 +44,7 @@ namespace CharacterMovement
 
         public virtual void OnInteract(InputValue value)
         {
-            Debug.Log(_aimPosition);
+            
         }
 
         protected virtual void Update()
