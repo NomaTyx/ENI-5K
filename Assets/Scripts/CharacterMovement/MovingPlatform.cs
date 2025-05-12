@@ -73,7 +73,7 @@ namespace CharacterMovement
                     _rb3D.MovePosition(transform.position + velocity * Time.fixedDeltaTime);
                     break;
                 case PhysicsMode.Physics2D:
-                    _rb2D.velocity = velocity;
+                    _rb2D.linearVelocity = velocity;
                     break;
             }
         }
