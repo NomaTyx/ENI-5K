@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -17,6 +18,11 @@ namespace CharacterMovement
 
         [field: Header("Componenents")]
         [field: SerializeField] protected CharacterMovementBase Movement { get; set; }
+
+
+        //some scripts will need to access the camera
+        public CinemachineCamera PlayerCamera => _playerCam;
+        [SerializeField] private CinemachineCamera _playerCam;
 
         protected Vector2 MoveInput { get; set; }
 
