@@ -12,7 +12,6 @@ public class CameraMover : MonoBehaviour
         var cam = other.gameObject.GetComponent<PlayerController>().PlayerCamera;
         _staticCam = GetComponentInChildren<CinemachineCamera>();
         SwitchToStaticCam(cam);
-        Debug.Log("penis");
     }
 
     private void OnTriggerExit(Collider other)
